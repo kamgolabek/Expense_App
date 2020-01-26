@@ -27,7 +27,7 @@ class MyHomePage extends StatelessWidget {
           title: Text('Flutter App'),
         ),
         body: SingleChildScrollView(
-                  child: Column(
+          child: Column(
             mainAxisAlignment: MainAxisAlignment.start,
             crossAxisAlignment: CrossAxisAlignment.stretch,
             children: <Widget>[
@@ -39,7 +39,7 @@ class MyHomePage extends StatelessWidget {
                   elevation: 5,
                 ),
               ),
-            UserTransaction(),
+              UserTransaction(),
             ],
           ),
         ));
